@@ -1,5 +1,6 @@
 import { useRetailers } from "./retailProvider.js"
 import { RetailerRepresentation } from "./Retailer.js"
+import { useDistributors } from "../distrubutors/distributorProvider.js"
 
 const contentTarget = document.querySelector("#retailerList")
 
@@ -10,9 +11,15 @@ export const ShowRetailerList = () => {
 
 const render = () => {
     const retailers = useRetailers()
+    const distributors = useDistributors()
 
     contentTarget.innerHTML = retailers.map(retailer => {
-        return RetailerRepresentation(retailer)
+
+        //get the distributor for the retailer
+        const foundDistributor = distributors.find(distributor => distributor.id === retailer.distributorId)
+
+        return RetailerRepresentation(retailer, foundDistributor)
+
     }).join('')
 
 }

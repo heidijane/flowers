@@ -31,7 +31,8 @@
             "city": "Nashville",
             "state": "TN",
             "address": "5555 Blue St",
-            "zip": "37555"
+            "zip": "37555",
+            "distributorId": 1
         },
         {
             "id": 2,
@@ -39,7 +40,8 @@
             "city": "Knoxville",
             "state": "TN",
             "address": "222 Green Ave",
-            "zip": "37222"
+            "zip": "37222",
+            "distributorId": 2
         },
         {
             "id": 3,
@@ -47,7 +49,8 @@
             "city": "Franklin",
             "state": "TN",
             "address": "777 Red Ave",
-            "zip": "37566"
+            "zip": "37566",
+            "distributorId": 3
         },
         {
             "id": 4,
@@ -55,7 +58,8 @@
             "city": "Atlanta",
             "state": "GA",
             "address": "4444 Peach St",
-            "zip": "33000"
+            "zip": "33000",
+            "distributorId": 1
         },
         {
             "id": 5,
@@ -63,7 +67,33 @@
             "city": "Memphis",
             "state": "TN",
             "address": "8888 Violet Blvd",
-            "zip": "37999"
+            "zip": "37999",
+            "distributorId": 3
+        }
+    ],
+    "distributors": [{
+            "id": 1,
+            "name": "Cumberland Flower Distribution",
+            "city": "Nashville",
+            "state": "TN",
+            "address": "3423 Orange Road",
+            "zip": "37555"
+        },
+        {
+            "id": 2,
+            "name": "Smokey Mountain Flower Distribution",
+            "city": "Knoxville",
+            "state": "TN",
+            "address": "1234 Slate St",
+            "zip": "37223"
+        },
+        {
+            "id": 3,
+            "name": "Magenta Flower Distrubution",
+            "city": "Jackson",
+            "state": "TN",
+            "address": "6544 Purple Road",
+            "zip": "37345"
         }
     ]
 }
