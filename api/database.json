@@ -1,0 +1,28 @@
+{
+    "flowers": [{
+            "id": 1,
+            "commonName": "windflower",
+            "color": "white"
+        },
+        {
+            "id": 2,
+            "commonName": "tulip",
+            "color": "red"
+        },
+        {
+            "id": 3,
+            "commonName": "rose",
+            "color": "pink"
+        },
+        {
+            "id": 4,
+            "commonName": "hyacinth",
+            "color": "purple"
+        },
+        {
+            "id": 5,
+            "commonName": "daffodil",
+            "color": "yellow"
+        }
+    ]
+}
