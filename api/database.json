@@ -24,5 +24,46 @@
             "commonName": "daffodil",
             "color": "yellow"
         }
+    ],
+    "retailers": [{
+            "id": 1,
+            "name": "Flower Power",
+            "city": "Nashville",
+            "state": "TN",
+            "address": "5555 Blue St",
+            "zip": "37555"
+        },
+        {
+            "id": 2,
+            "name": "Corner Flowers",
+            "city": "Knoxville",
+            "state": "TN",
+            "address": "222 Green Ave",
+            "zip": "37222"
+        },
+        {
+            "id": 3,
+            "name": "Bob's Flower Shop",
+            "city": "Franklin",
+            "state": "TN",
+            "address": "777 Red Ave",
+            "zip": "37566"
+        },
+        {
+            "id": 4,
+            "name": "Tato 'n Flowers",
+            "city": "Atlanta",
+            "state": "GA",
+            "address": "4444 Peach St",
+            "zip": "33000"
+        },
+        {
+            "id": 5,
+            "name": "Bloom's",
+            "city": "Memphis",
+            "state": "TN",
+            "address": "8888 Violet Blvd",
+            "zip": "37999"
+        }
     ]
 }

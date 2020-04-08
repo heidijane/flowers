@@ -1,5 +1,5 @@
 export const FlowerRepresentation = (flowerObject) => {
     return `
-    <p>${flowerObject.color} ${flowerObject.commonName}</p>
+    <p class="flower">${flowerObject.color} ${flowerObject.commonName}</p>
 `
 }
