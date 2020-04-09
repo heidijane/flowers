@@ -1,0 +1,19 @@
+#retailers {
+    margin: 1em;
+}
+
+#retailerList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.retailer {
+    background-color: #fedff9;
+    color: #512a4b;
+    border: 1px dotted #bf52ae;
+    padding: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    min-width: 200px;
+    max-width: 400px;
+}

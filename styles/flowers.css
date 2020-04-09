@@ -1,0 +1,17 @@
+#flowers {
+    margin: 1em;
+}
+
+#flowerList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flower {
+    background-color: #fedff9;
+    color: #512a4b;
+    border: 1px dotted #bf52ae;
+    padding: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
