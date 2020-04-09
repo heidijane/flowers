@@ -7,7 +7,7 @@ import { getNurseries } from "./nurseries/nurseryProvider.js";
 
 getFlowers()
     .then(ShowFlowerList)
-getRetailers()
+    .then(getRetailers)
     .then(getDistributors)
     .then(getNurseries)
     .then(ShowRetailerList)
